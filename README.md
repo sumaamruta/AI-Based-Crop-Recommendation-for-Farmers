@@ -1,11 +1,27 @@
+Overview
 
-  # AI-Powered Agritech Dashboard
+An AI-powered agriculture platform that recommends suitable crops based on soil nutrients and environmental conditions. The system uses machine learning models such as MLP, TabTransformer, and TabNet to predict crops and provides real-time market analysis using mandi price data.
 
-  This is a code bundle for AI-Powered Agritech Dashboard. The original project is available at https://www.figma.com/design/xRl0ngcFUddESj6r4TUQP0/AI-Powered-Agritech-Dashboard.
+Features
+Crop recommendation based on N, P, K, temperature, humidity, pH, and rainfall
+Market price analysis using Data.gov.in API
+7-Day Price Trend Visualization
+6-Month Price Comparison
+User Authentication System
+Interactive Dashboard
 
-  ## Running the code
+Technology Stack
+Frontend: React.js, JavaScript, Tailwind CSS
+Backend: FastAPI, Python
+Machine Learning: PyTorch, Scikit-learn, TabNet, TabTransformer
+Database: SQLite
 
-  Run `npm i` to install the dependencies.
+Installation
+Backend
+pip install -r requirements.txt
+uvicorn main:app --reload
 
-  Run `npm run dev` to start the development server.
-  
+Frontend
+cd frontend
+npm install
+npm start
